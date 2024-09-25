@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SIB Podcast</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap" rel="stylesheet">
+      </head>
+      
+<body>
+  <header>
+    <h1>SIB Podcast</h1>
+  </header>
+
+  <main>
+    <section id="podcast-list" class="podcast-cards">
+      <!-- Dynamically generated podcast items will appear here -->
+    </section>
+
+    <section id="player" class="hidden">
+      <div id="podcast-player">
+        <div class="podcast-details">
+          <span id="current-time">00:00</span>
+          <input type="range" id="seek-bar" value="0" min="0" max="100">
+          <span id="total-duration">00:00</span>
+        </div>
+        <button id="play-pause-btn" class="control-btn">Play</button>
+        <button id="back-btn" class="control-btn">Back to Podcasts</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
