@@ -1,5 +1,5 @@
 const podcastFolder = './podcasts';   // path to folder
-const podcastFiles = ['MD on Digital payments.mp3', 'MD on Debit Credit and Prepaid cards.mp3', 'MD on Information Technology Governance, Risk, Controls and Assurance Practices.mp3']; 
+const podcastFiles = ['MD on Digital payments.mp3', 'MD on Debit Credit and Prepaid cards.mp3', 'MD on Information Technology Governance, Risk, Controls and Assurance Practices.mp3', 'MD on Outsourcing of Information Technology Services.mp3']; 
 const podcastList = document.getElementById('podcast-list');
 const playerSection = document.getElementById('player');
 const playPauseBtn = document.getElementById('play-pause-btn');
