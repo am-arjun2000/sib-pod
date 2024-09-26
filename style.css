@@ -13,7 +13,7 @@
   
   header {
     text-align: center;
-    padding: 5px 0; /* Reduced padding for a smaller header box */
+    padding: 0px 0; /* Reduced padding for a smaller header box */
     background: linear-gradient(135deg, #2b2b2b, #4e54c8); /* Darker gradient */
     color: white;
     font-family: 'Edu AU VIC WA NT Dots', sans-serif;
@@ -26,8 +26,8 @@ header h1 {
 
 header h2 {
     margin: 0; /* Remove margin for h2 */
-    padding-top: 2px; /* Slight padding between h1 and h2 */
-    font-weight: 300;
+    padding-top: 0px; /* Slight padding between h1 and h2 */
+/*     font-weight: 300; */
     color: #ddd;
 }
 
