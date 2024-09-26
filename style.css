@@ -11,25 +11,15 @@
     color: #f0f0f0; /* Light text color */
   }
   
-  header {
+header {
     text-align: center;
-    padding: 0px 0; /* Reduced padding for a smaller header box */
+    padding: 0px; /* Reduced padding for a smaller header */
     background: linear-gradient(135deg, #2b2b2b, #4e54c8); /* Darker gradient */
     color: white;
-    font-family: 'Edu AU VIC WA NT Dots', sans-serif;
-    letter-spacing: 1px;
-}
-
-header h1 {
-    margin: 0; /* Remove margin for h1 */
-}
-
-header h2 {
-    margin: 0; /* Remove margin for h2 */
-    padding-top: 0px; /* Slight padding between h1 and h2 */
-/*     font-weight: 300; */
-    color: #ddd;
-}
+    font-size: 1.5em; /* Reduced font size */
+    font-family: 'Edu AU VIC WA NT Dots', sans-serif; /* Specified font */
+   
+  }
 
   
   main {
