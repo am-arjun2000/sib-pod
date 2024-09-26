@@ -1,4 +1,4 @@
-const podcastFolder = '/podcasts';  // path to folder
+const podcastFolder = './podcasts';   // path to folder
 const podcastFiles = ['Digital payments.mp3', 'podcast2.wav', 'podcast3.wav'];  // Simulate .wav files
 const podcastList = document.getElementById('podcast-list');
 const playerSection = document.getElementById('player');
